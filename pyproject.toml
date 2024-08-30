@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "LatinDeckCreator"
-version = "0.0.1"
+version = "0.0.3"
 description = "A Latin flashcard deck creator"
 authors = ["Forrest Zeng <ForrestZengMusic@gmail.com>"]
+packages = [
+    { include = "LatinDeckCreator" }
+]
 readme = "README.md"
 
 [tool.poetry.dependencies]
