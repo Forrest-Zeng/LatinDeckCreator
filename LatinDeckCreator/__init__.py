@@ -1,8 +1,6 @@
-import sys
-sys.path.append('.')
-from LatinDeckCreator.deckwriter import DeckWriter
-from LatinDeckCreator.filehandler import FileHandler
-from LatinDeckCreator.jsonhandler import JsonHandler
+from .deckwriter import DeckWriter
+from .filehandler import FileHandler
+from .jsonhandler import JsonHandler
 
 class DeckCreator():
     def __init__(self, path):

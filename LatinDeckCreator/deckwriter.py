@@ -1,6 +1,3 @@
-import sys
-sys.path.append(".")
-
 from pywhitakers import Translator
 
 class DeckWriter():
