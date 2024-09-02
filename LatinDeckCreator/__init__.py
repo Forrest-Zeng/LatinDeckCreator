@@ -1,6 +1,8 @@
 from .deckwriter import DeckWriter
 from .filehandler import FileHandler
 from .jsonhandler import JsonHandler
+import sys
+sys.path.append('.')
 
 class DeckCreator():
     def __init__(self, path):

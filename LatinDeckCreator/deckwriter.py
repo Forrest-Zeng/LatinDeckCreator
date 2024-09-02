@@ -1,4 +1,6 @@
 from pywhitakers import Translator
+import sys
+sys.path.append('.')
 
 class DeckWriter():
     def __init__(self, path):
