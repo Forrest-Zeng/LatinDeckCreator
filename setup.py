@@ -6,7 +6,7 @@ def read(fname):
 
 setup(
     name = "LatinDeckCreator",
-    version = "0.0.4",
+    version = "0.0.5",
     author = "Forrest Zeng",
     author_email = "forrestzengmusic@gmail.com",
     description = ("A package using pywhitakers to create Latin flashcard decks."),
